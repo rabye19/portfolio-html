@@ -1,0 +1,124 @@
+.header {
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.contain {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav {
+    border: solid grey;
+    border-radius: 10px;
+    box-shadow: 5px 4px  gray;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+:hover.nav {
+    box-shadow: 0px 0px #ffff;
+    color: black;
+    font-size: 27px;
+}
+.greeting {
+    margin-top: 100px;
+    text-align: center;
+}
+.hello {
+    color: #D4E2D4;
+    font-size: 4rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento, cursive";
+}
+.me {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+.programmer{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+.pro {
+    text-decoration: underline;
+}
+p b {
+    color: #D4E2D4;
+    text-shadow: 2px 4px gray;
+}
+.mb-4 {
+    margin-top: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: xx-large;
+    color: #FCF8E8;
+}
+.lead {
+    margin-top: 50px;
+}
+.hr {
+    border: dotted #000000 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+#bi {
+    width: 50px;
+    float: right;
+    margin-top: 50px;
+}
+.featurette {
+    margin-top: 50px;
+}
+body {
+    background-color: #FCF8E8;
+}
+
+.footerC {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    margin: 20px;
+}
+.f1{
+    text-align: end;
+    font-weight: bold;
+    font-size: 18px;
+}
+.f2{
+    text-align: start;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.icon {
+    justify-items: left;
+    align-items: left;
+    width: 60px;
+    margin: 30px;
+}
+.home {
+    font-size: large;
+    text-decoration: none;
+    text-shadow: 2px 2px black ;
+    color: bisque;
+}
+@media screen and (max-width: 800px) {
+    .f1 {
+        text-align: center;
+    }
+    .f2 {
+        text-align: center;
+    }
+    .footerC {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
